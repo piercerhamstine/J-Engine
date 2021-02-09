@@ -11,7 +11,6 @@ private:
 	// magnitude of the force vector
 	float forceStrength;
 public:
-	Force(sf::Vector2f vectorDirection, float forceStrength);
 	sf::Vector2f getForceVector();
 	void setForceVector(sf::Vector2f vectorDirection);
 	float getForceStrength();

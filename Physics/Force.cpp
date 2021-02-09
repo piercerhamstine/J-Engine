@@ -2,10 +2,7 @@
 #include "SFML/System/Vector2.hpp"
 #include <math.h>
 
-Force::Force(sf::Vector2f vectorDirection, float forceStrength)
-{
-	this->setForceVector(forceVector);
-}
+
 sf::Vector2f Force::getForceVector()
 {
 	return this->forceVector;
